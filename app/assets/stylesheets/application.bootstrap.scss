@@ -41,9 +41,15 @@ body {
 .fixed-top {
   right: auto;
 }
+
 @media (min-width: 991.98px) {
   main {
     padding-left: 240px;
+  }
+  .table {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

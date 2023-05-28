@@ -73,12 +73,8 @@ const AddCourses = () => {
             <button type="submit" className="btn custom-button mt-3">
               Add Course
             </button>
+            <p className="lead">{submitted}</p>
           </form>
-          <div className="jumbotron jumbotron-fluid bg-transparent">
-            <div className="container secondary-color">
-              <p className="lead">{submitted}</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

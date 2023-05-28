@@ -157,12 +157,8 @@ const AddResults = () => {
               <button type="submit" className="btn custom-button mt-3">
                 Add Result
               </button>
-            </form>
-          </div>
-          <div className="jumbotron jumbotron-fluid bg-transparent">
-            <div className="container secondary-color">
               <p className="lead">{submitted}</p>
-            </div>
+            </form>
           </div>
         </div>
       </div>
