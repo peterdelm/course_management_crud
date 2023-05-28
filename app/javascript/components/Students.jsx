@@ -86,9 +86,9 @@ const Students = () => {
         <div className="container py-5">
           <h1 className="display-4">Students List</h1>
           <p className="lead text-muted">
-            We’ve pulled together our most popular recipes, our latest
-            additions, and our editor’s picks, so there’s sure to be something
-            tempting for you to try.
+            We’ve pulled together our most popular MORONS, our latest additions,
+            and our editor’s picks, so there’s sure to be something tempting for
+            you to try.
           </p>
         </div>
       </section>
@@ -106,9 +106,6 @@ const Students = () => {
             </thead>
             <tbody>{students.length > 0 ? allStudents : noStudent}</tbody>
           </table>
-          <Link to="/" className="btn btn-link">
-            Home
-          </Link>
         </main>
       </div>
     </>
