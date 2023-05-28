@@ -86,9 +86,9 @@ const Students = () => {
         <div className="container py-5">
           <h1 className="display-4">Students List</h1>
           <p className="lead text-muted">
-            We’ve pulled together our most popular MORONS, our latest additions,
-            and our editor’s picks, so there’s sure to be something tempting for
-            you to try.
+            We’ve pulled together our most social butterflies, our most
+            galaxy-brained nerds, and even a class clown or two. I hope they've
+            done well...
           </p>
         </div>
       </section>

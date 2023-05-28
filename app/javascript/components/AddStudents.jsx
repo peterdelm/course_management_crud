@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const AddStudents = () => {
-  const navigate = useNavigate();
   const [first_name, setFirstName] = useState("");
   const [last_name, setLastName] = useState("");
   const [date_of_birth, setDateOfBirth] = useState("");

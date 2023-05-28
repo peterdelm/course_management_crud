@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 export default () => (
@@ -7,9 +6,10 @@ export default () => (
     <Navbar />
     <div className="jumbotron jumbotron-fluid bg-transparent">
       <div className="container secondary-color">
-        <h1 className="display-4">School Management System</h1>
+        <h1 className="display-4">Shyftlabs School for Gifted Youngsters</h1>
         <p className="lead">
-          A curated list of recipes for the best homemade meal and delicacies.
+          Powered by an academic management application designed by Peter Del
+          Mastro.
         </p>
         <hr className="my-4" />
       </div>

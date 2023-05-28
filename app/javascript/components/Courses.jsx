@@ -84,9 +84,7 @@ const Courses = () => {
         <div className="container py-5">
           <h1 className="display-4">Courses List</h1>
           <p className="lead text-muted">
-            We’ve pulled together our most popular recipes, our latest
-            additions, and our editor’s picks, so there’s sure to be something
-            tempting for you to try.
+            Probably the best curriculum you've ever seen.
           </p>
         </div>
       </section>
