@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const AddResults = () => {
@@ -50,12 +50,6 @@ const AddResults = () => {
   const allCourses = courses.map((course, index) => (
     <option value={course.id}>{course.name}</option>
   ));
-
-  const noResult = (
-    <div className="vw-100 vh-50 d-flex align-items-center justify-content-center">
-      <h4>No Results yet. Consider grading some papers?</h4>
-    </div>
-  );
 
   const onSubmit = (event) => {
     event.preventDefault();

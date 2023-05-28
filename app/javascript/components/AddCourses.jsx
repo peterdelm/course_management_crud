@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const AddCourses = () => {
-  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [submitted, setSubmitted] = useState("");
 

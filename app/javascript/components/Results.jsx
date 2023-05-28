@@ -40,8 +40,7 @@ const Results = () => {
         <div className="container py-5">
           <h1 className="display-4">Results List</h1>
           <p className="lead text-muted">
-            Oh wow! So many cool results! I sure hope they belong to someone or
-            something...
+            Oh wow! So many cool results! I sure hope they belong_to someone...
           </p>
         </div>
       </section>
