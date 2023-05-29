@@ -10,7 +10,8 @@
 ## Deployment instructions
 
 - bundle install
-- npm install or yarn install
+- npm install
+- npm install --global yarn
 - rails db:create
 - rails db:migrate
 - rails db:seed
